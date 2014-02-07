@@ -1,0 +1,4 @@
+response = raw_input("What is your radius? ")
+r = float(response)
+area = 3.14149 * r**2
+print"The area is", area
