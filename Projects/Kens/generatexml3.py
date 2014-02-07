@@ -1,9 +1,10 @@
 import sys
-from xml.etree.ElementTree import Element, SubElement, tostring
+from xml.etree.ElementTree import Element, SubElement, tostring, Comment
 import os
 import os.path
 import time
 from xml.etree import ElementTree
+from xml.etree.ElementTree_pretty import prettify
 
 
 # print 'Number of arguments:', len(sys.argv), 'arguments.'
@@ -71,7 +72,7 @@ def indent(elem, level=0):
 #root = ElementTree.parse('/tmp/xmlfile').getroot()
 
 
-
+'''
 root = Element('Item')
 title = SubElement(root, "Title")
 title.text = version
@@ -79,10 +80,9 @@ sparkle = SubElement(root,"sparkle:releaseNotesLink")
 sparkle.text = "http://li228-23.members.linode.com/app/" + file_without_extension + ".html"
 pub_date = SubElement(root,"pubDate")
 pub_date.text = created_time
-comment
 indent(root)
 ElementTree.dump(root)
-
+'''
 sparkle_data = "http://li228-23.members.linode.com/app/" + file_without_extension
 
 enclosure_begining = "<enclosure url=\"http://li228-23.members.linode.com/app/" +  entire_file + "\""
@@ -105,7 +105,20 @@ print(file_length)
 print(enclosure_end)
 
 print("</item>")
-#xml = xml.dom.minidom.parse(root)
-#pretty_xml_as_string = xml.toprettyxml()
-# print tostring(root)
 
+top = Element('top')
+
+comment = Comment('Generated for PyMOTW')
+top.append(comment)
+
+child = SubElement(top, 'child')
+child.text = 'This child contains text.'
+
+child_with_tail = SubElement(top, 'child_with_tail')
+child_with_tail.text = 'This child has regular text.'
+child_with_tail.tail = 'And "tail" text.'
+
+child_with_entity_ref = SubElement(top, 'child_with_entity_ref')
+child_with_entity_ref.text = 'This & that'
+
+print prettify(top)
