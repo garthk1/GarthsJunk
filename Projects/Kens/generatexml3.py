@@ -4,7 +4,6 @@ import os
 import os.path
 import time
 from xml.etree import ElementTree
-from xml.etree.ElementTree_pretty import prettify
 
 
 # print 'Number of arguments:', len(sys.argv), 'arguments.'
@@ -93,18 +92,7 @@ file_length = "length=" + str(file_size)
 enclosure_end = "type=\"application/octet-stream\"/>"
 
 
-print("<item>")
-print("\t<title>")
-print(version)
 
-print(enclosure_begining)
-print(sparkle_shortver)
-print(sparkle_revision)
-print(sparkle_file_size)
-print(file_length)
-print(enclosure_end)
-
-print("</item>")
 
 top = Element('top')
 
@@ -121,4 +109,4 @@ child_with_tail.tail = 'And "tail" text.'
 child_with_entity_ref = SubElement(top, 'child_with_entity_ref')
 child_with_entity_ref.text = 'This & that'
 
-print prettify(top)
+print(top)

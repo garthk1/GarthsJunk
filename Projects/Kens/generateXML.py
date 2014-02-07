@@ -21,4 +21,12 @@ version = "Version " + short_version_text
 file_name = "File name: " + entire_file
 print(version)
 print(file_name)
-
+print("<item>")
+print("\t<title>{0}</title>" .format(version))
+print("\t<enclosure url=\"http://li228-23.members.linode.com/app/{0}\"" .format(entire_file))
+print("\t\tsparkle:shortVersionString=\"{0}\"" .format(short_version_text))
+print("\t\tsparkle:version=\"{0}\"" .format(revision_version))
+print("\t\tsparkle:dsaSignature=\"\"")
+print("\t\tlength=\"{0}\"" .format(str(file_size)))
+print("\t\ttype=\"application/octet-stream\"/>")
+print("</item>")
