@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fc0bcbe-8b4e-425a-a0ae-d904462d4dda" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GarthsJunk.iml" afterPath="$PROJECT_DIR$/.idea/GarthsJunk.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projects/Kens/generateXML.py" afterPath="$PROJECT_DIR$/Projects/Kens/generateXML.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projects/Kens/generatexml4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml2.py" afterPath="$PROJECT_DIR$/Projects/Kens/generatexml2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml3.py" afterPath="$PROJECT_DIR$/Projects/Kens/generatexml3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GarthsJunk.iws" />
@@ -29,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="generatexml3.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="generatexml3.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="54" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.8853288" vertical-offset="705" max-vertical-offset="1680">
+            <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="-8.2" vertical-offset="830" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -41,10 +39,17 @@
       <file leaf-file-name="generatexml2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state line="18" column="23" selection-start="495" selection-end="495" vertical-scroll-proportion="-4.4" vertical-offset="115" max-vertical-offset="1050">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatexml4.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="66" selection-start="851" selection-end="851" vertical-scroll-proportion="0.55" vertical-offset="101" max-vertical-offset="1125">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,11 +85,13 @@
         <option value="$PROJECT_DIR$/Projects/Kens/generatexml3.py" />
         <option value="$PROJECT_DIR$/Projects/Kens/generateXML.py" />
         <option value="$PROJECT_DIR$/Projects/Kens/generatexml2.py" />
+        <option value="$PROJECT_DIR$/generatexml4.py" />
+        <option value="$PROJECT_DIR$/Projects/Kens/generatexml4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="4" />
     <option name="y" value="22" />
     <option name="width" value="1474" />
     <option name="height" value="973" />
@@ -185,11 +192,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projects/Kens" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\BooksExamples" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\BooksExamples\HardWay" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\Projects" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\Kens" />
-      <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\HeadStart" />
     </key>
   </component>
   <component name="RunManager">
@@ -348,18 +355,22 @@
       <created>1391742743524</created>
       <updated>1391742743524</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project complete. I believe">
+      <created>1391797860747</created>
+      <updated>1391797860747</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="22" width="1474" height="973" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="22" width="1474" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16792843" sideWeight="0.67197454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17274605" sideWeight="0.67197454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2462077" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -367,12 +378,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -388,12 +399,27 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Uploading all my stuffs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading all my stuffs" />
+    <MESSAGE value="Project complete. I believe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project complete. I believe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1409" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
@@ -404,9 +430,7 @@
     <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,9 +444,7 @@
     <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -436,9 +458,7 @@
     <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="160" selection-start="1454" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -452,9 +472,7 @@
     <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="16" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -463,18 +481,23 @@
         <state line="22" column="0" selection-start="714" selection-end="1184" vertical-scroll-proportion="0.5311973" vertical-offset="0" max-vertical-offset="593" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="-8.2" vertical-offset="830" max-vertical-offset="1680">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="54" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.8853288" vertical-offset="705" max-vertical-offset="1680">
+        <state line="18" column="23" selection-start="495" selection-end="495" vertical-scroll-proportion="-4.4" vertical-offset="115" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="66" selection-start="851" selection-end="851" vertical-scroll-proportion="0.55" vertical-offset="101" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>

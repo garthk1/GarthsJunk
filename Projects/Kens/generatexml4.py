@@ -12,29 +12,34 @@ import time
 
 # Gather the file name from the input so I can manupulate it.
 # Once I figure out lists I am sure it will be easier.
-kens_file = str(sys.argv)
+# kens_file = str(sys.argv)
 
 
-program_name = sys.argv[0]
-arguments = sys.argv[1]
-count = len(arguments)
-print(arguments)
+line2_ver = sys.argv[1]
+str(line2_ver)
+is_zipfile = line2_ver.endswith("zip")
 
-for x in sys.argv:
-    print(x)
+if is_zipfile == False:
+    print("This is not a zip file! Dude! What's wrong with you!")
+    exit()
+else:
+    print("Lets do this!")
+
+print(line2_ver.split('.'))
+# line2_ver(find)
 
 # All this text manipulation. I am sure there is a much easier way to do it.
 # This is just how I could make it work with my limited knowledge.
-name_of_file = kens_file.find("Li")
-end_of_file = kens_file.find(".zip") +4
-end_of_file_noext = kens_file.find(".zip")
-entire_file = kens_file[name_of_file:end_of_file]
+name_of_file = line2_ver.find("Li")
+end_of_file = line2_ver.find(".zip") +4
+end_of_file_noext = line2_ver.find(".zip")
+entire_file = line2_ver[name_of_file:end_of_file]
 short_version_text = entire_file[6:9]
 revision_version_exist = entire_file.find("_")
 revision_version_start = entire_file.find("_") +1
 minor_version_end = entire_file.find("_") -1
 revision_version_end = entire_file.find(".zip")
-file_without_extension = kens_file[name_of_file:end_of_file_noext]
+file_without_extension = line2_ver[name_of_file:end_of_file_noext]
 revision_version = entire_file[revision_version_start:revision_version_end]
 minor_version_exists = entire_file[9]
 '''
