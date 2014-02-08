@@ -25,7 +25,31 @@ if is_zipfile == False:
 else:
     print("Lets do this!")
 
-print(line2_ver.split('.'))
+line2_no_zip = line2_ver.rsplit( ".", 1 )[ 0 ]
+print(line2_no_zip)
+line2_dic_v = line2_no_zip.split('v')
+line2_versions = line2_dic_v[1]
+line2_revision_cut = line2_versions.split('_')
+line2_revision_number = line2_revision_cut[1]
+line2_version_cut = line2_revision_cut[0]
+line2_major_cut = line2_version_cut.rsplit('.', 1)
+line2_major = line2_major_cut[0]
+line2_minor = line2_major_cut[1]
+
+#hmmm gotta get a . between those.
+# print(line2_version_nozip)
+#print(line2_version_only)
+#print(line2_versions)
+print(line2_versions)
+print(line2_dic_v)
+print(line2_revision_cut)
+print(line2_revision_number)
+print(line2_version_cut)
+print(line2_major_cut)
+print(line2_major)
+print(line2_minor)
+
+
 # line2_ver(find)
 
 # All this text manipulation. I am sure there is a much easier way to do it.
@@ -71,3 +95,14 @@ print("\t\ttype=\"application/octet-stream\"/>")
 print("</item>")
 
 # Release notes wraps funny. Not sure how make it go to a new line without breaking it.
+
+
+
+'''
+filename = '/home/user/somefile.txt'
+print( filename.rsplit( ".", 1 )[ 0 ] )
+# '/home/user/somefile'
+The rsplit tells Python to perform the string splits starting from the right of the string, and the 1 says to perform at most one split (so that e.g.
+'foo.bar.baz' -> [ 'foo.bar', 'baz' ]).
+Since rsplit will always return a non-empty array, we may safely index 0 into it to get the filename minus the extension.
+'''
