@@ -20,8 +20,6 @@ arguments = sys.argv[1]
 count = len(arguments)
 print(arguments)
 
-for x in sys.argv:
-    print(x)
 
 # All this text manipulation. I am sure there is a much easier way to do it.
 # This is just how I could make it work with my limited knowledge.
