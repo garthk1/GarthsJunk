@@ -7,90 +7,61 @@ import time
 # Will need these guys again for that.
 # from xml.etree import ElementTree
 # from xml.etree.ElementTree import Element, SubElement, tostring
-
-
-
 # Gather the file name from the input so I can manupulate it.
 # Once I figure out lists I am sure it will be easier.
 # kens_file = str(sys.argv)
-
 
 line2_ver = sys.argv[1]
 str(line2_ver)
 is_zipfile = line2_ver.endswith("zip")
 
-if is_zipfile == False:
+if is_zipfile is False:
     print("This is not a zip file! Dude! What's wrong with you!")
     exit()
 else:
     print("Lets do this!")
 
-line2_no_zip = line2_ver.rsplit( ".", 1 )[ 0 ]
+line2_no_zip = line2_ver.rsplit(".", 1)[0]
 print(line2_no_zip)
 line2_dic_v = line2_no_zip.split('v')
 line2_versions = line2_dic_v[1]
 line2_revision_cut = line2_versions.split('_')
 line2_revision_number = line2_revision_cut[1]
 line2_version_cut = line2_revision_cut[0]
-line2_major_cut = line2_version_cut.rsplit('.', 1)
-line2_major = line2_major_cut[0]
-line2_minor = line2_major_cut[1]
+# line2_major_cut = line2_version_cut.rsplit('.', 1)
+# line2_major = line2_major_cut[0]
+# line2_minor = line2_major_cut[1]
 
 #hmmm gotta get a . between those.
 # print(line2_version_nozip)
 #print(line2_version_only)
 #print(line2_versions)
 print(line2_versions)
-print(line2_dic_v)
-print(line2_revision_cut)
+# print(line2_dic_v)
+# print(line2_revision_cut)
 print(line2_revision_number)
 print(line2_version_cut)
-print(line2_major_cut)
-print(line2_major)
-print(line2_minor)
+# print(line2_major_cut)
+#print(line2_major)
+#print(line2_minor)
 
 
-# line2_ver(find)
-
-# All this text manipulation. I am sure there is a much easier way to do it.
-# This is just how I could make it work with my limited knowledge.
-name_of_file = line2_ver.find("Li")
-end_of_file = line2_ver.find(".zip") +4
-end_of_file_noext = line2_ver.find(".zip")
-entire_file = line2_ver[name_of_file:end_of_file]
-short_version_text = entire_file[6:9]
-revision_version_exist = entire_file.find("_")
-revision_version_start = entire_file.find("_") +1
-minor_version_end = entire_file.find("_") -1
-revision_version_end = entire_file.find(".zip")
-file_without_extension = line2_ver[name_of_file:end_of_file_noext]
-revision_version = entire_file[revision_version_start:revision_version_end]
-minor_version_exists = entire_file[9]
-'''
-if minor_version_exists == ".":
-    minor_version_start = entire_file[]
-    str(minor_version_end)
-    minor_version =  minor_version_start + str(minor_version_end)
-    print(minor_version)
-'''
-
-#file_name = "File name: " + entire_file
-# Get the file size of the input file..hopefully
 file_size = os.path.getsize(entire_file)
 
 # Get the create time of the file
-created_time = time.strftime("%a, %d %b %Y %I:%M:%S %z",time.gmtime(os.path.getmtime(entire_file)))
+created_time = time.strftime("%a, %d %b %Y %I:%M:%S %z", time.gmtime(os.path.getmtime(line2_ver)))
 
 # Printing everything!
 print("<item>")
-print("\t<title>Version{0}</title>" .format(short_version_text))
-print("\t<sparkle:releaseNotesLink>http://li228-23.members.linode.com/releaseNotes/{0}_{1}.html</sparkle:releaseNotesLink>" .format(short_version_text,revision_version))
-print("\t<pubDate>{0}</pubDate>" .format(created_time))
-print("\t<enclosure url=\"http://li228-23.members.linode.com/app/{0}\"" .format(entire_file))
-print("\t\tsparkle:shortVersionString=\"{0}\"" .format(short_version_text))
-print("\t\tsparkle:version=\"{0}\"" .format(revision_version))
+print("\t<title>Version{0}</title>".format(line2_version_cut)
+#print("\t<sparkle:releaseNotesLink>http://li228-23.members.linode.com/releaseNotes/{0}.html\
+#  </sparkle:releaseNotesLink>" .format(line2_versions))
+print("\t<pubDate>{0}</pubDate>".format(created_time))
+print "\t<enclosure url=\"http://li228-23.members.linode.com/app/{0}\"".format(line2_no_zip)
+print("\t\tsparkle:shortVersionString=\"{0}\"".format(line2_version_cut))
+print("\t\tsparkle:version=\"{0}\"".format(line2_revision_number))
 print("\t\tsparkle:dsaSignature=\"\"")
-print("\t\tlength=\"{0}\"" .format(str(file_size)))
+print("\t\tlength=\"{0}\"".format(str(file_size)))
 print("\t\ttype=\"application/octet-stream\"/>")
 print("</item>")
 
