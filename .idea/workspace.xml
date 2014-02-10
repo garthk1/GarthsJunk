@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fc0bcbe-8b4e-425a-a0ae-d904462d4dda" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projects/Kens/generatexml5.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml2.py" afterPath="$PROJECT_DIR$/Projects/Kens/generatexml2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/Line2v1.5_26.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/RSSGeneratorTest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/example_feed_atom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/example_feed_rss1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/example_feed_rss2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/feedgenerator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/generateXML.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projects/Kens/kenstool.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/Line2v1.5_26.zip" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/Line2v1.5_26.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/RSSGeneratorTest.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/RSSGeneratorTest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/example_feed_atom.xml" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/example_feed_atom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/example_feed_rss1.xml" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/example_feed_rss1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/example_feed_rss2.xml" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/example_feed_rss2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/feedgenerator.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/feedgenerator.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/generateXML.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/generateXML.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml2.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml3.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml4.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/generatexml5.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml5.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projects/Kens/kenstool.py" afterPath="$PROJECT_DIR$/Projects/Kens/Assignment 1/kenstool.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GarthsJunk.iws" />
@@ -29,7 +51,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="generatexml3.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+        <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1755">
               <folding />
@@ -38,7 +60,7 @@
         </entry>
       </file>
       <file leaf-file-name="generateXML.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/Kens/generateXML.py">
+        <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generateXML.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="570">
               <folding />
@@ -47,7 +69,7 @@
         </entry>
       </file>
       <file leaf-file-name="generatexml2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+        <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="65" column="87" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1065">
               <folding />
@@ -56,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="generatexml4.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+        <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="0" selection-start="0" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1260">
               <folding />
@@ -65,7 +87,7 @@
         </entry>
       </file>
       <file leaf-file-name="generatexml5.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml5.py">
+        <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="42" selection-start="319" selection-end="319" vertical-scroll-proportion="0.12037037" vertical-offset="162" max-vertical-offset="810">
               <folding>
@@ -231,11 +253,11 @@
       <recent name="$USER_HOME$/Desktop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projects/Kens/Assignment 1" />
       <recent name="$PROJECT_DIR$/Projects/Kens" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\BooksExamples" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\BooksExamples\HardWay" />
       <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\Projects" />
-      <recent name="C:\Users\Garth\Documents\PycharmProjects\MyJunk\GarthsJunk\Kens" />
     </key>
   </component>
   <component name="RunManager">
@@ -406,13 +428,18 @@
       <created>1391991470105</created>
       <updated>1391991470105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Yup. I got it! on to part 2">
+      <created>1392057502245</created>
+      <updated>1392057502245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1215" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -427,7 +454,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -449,41 +475,42 @@
     <MESSAGE value="Project complete. I believe" />
     <MESSAGE value="Project did not work perfectly. Created new file. Making it better!" />
     <MESSAGE value="Wooo! Pretty sure I got it!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wooo! Pretty sure I got it!" />
+    <MESSAGE value="Yup. I got it! on to part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yup. I got it! on to part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generateXML.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generateXML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="87" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="0" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml5.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="42" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="810">
           <folding>
@@ -492,35 +519,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generateXML.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generateXML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="87" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="0" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml5.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="2" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="810">
           <folding>
@@ -529,147 +556,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="45" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="45" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1409" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1409" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="82" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1409" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="160" selection-start="1454" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1409" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="16" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml3.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="22" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml4.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="0" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generateXML.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generateXML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml2.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="87" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/Kens/generatexml5.py">
+    <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 1/generatexml5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="42" selection-start="319" selection-end="319" vertical-scroll-proportion="0.12037037" vertical-offset="162" max-vertical-offset="810">
           <folding>
