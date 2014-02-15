@@ -12,16 +12,32 @@ import sys
 # if len(sys.argv) > 1: check if length of input is
 
 
-user_input = sys.argv[1]
+get_input = sys.argv
+
+how_many = len(get_input)
+print how_many
+
+if how_many != 2:
+    user_input = raw_input("Invalid input. Please enter a single non negative integer only: ")
+else:
+    user_input = get_input[1]
 
 is_digit = user_input.isdigit()
 
 while is_digit == False:
-    user_input = raw_input("Please enter a non negative number only: ")
+    user_input = raw_input("Invalid input. Please enter a single non negative integer only: ")
     is_digit = user_input.isdigit()
 
 get_number = int(user_input)
-fib_numbers = [0,1] # create a list
+
+if get_number == 1:
+    print"[0, 1]"
+    exit()
+elif get_number == 0:
+    print "[0]"
+    exit()
+else:
+    fib_numbers = [0,1] # create a list
 
 for i in range(get_number): #just learned range! It gives me all the numbers!
     # Grab the index i and the next index (i + 1) and add those beezys!
