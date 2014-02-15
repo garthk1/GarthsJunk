@@ -29,7 +29,7 @@ while is_digit == False:
     is_digit = user_input.isdigit()
 
 get_number = int(user_input)
-
+''' This may not be needed!
 if get_number == 1:
     print"[0, 1]"
     exit()
@@ -37,7 +37,9 @@ elif get_number == 0:
     print "[0]"
     exit()
 else:
-    fib_numbers = [0,1] # create a list
+'''
+
+fib_numbers = [0,1] # create a list
 
 for i in range(get_number): #just learned range! It gives me all the numbers!
     # Grab the index i and the next index (i + 1) and add those beezys!
