@@ -14,7 +14,7 @@ import sys
 # Verify number is a valid non-negative integer
 # def verify_number(user_input):
     #if user_input < 0:
-
+'''
 def verify_integer(is_int):
     try:
         make_int = int(is_int)
@@ -22,18 +22,23 @@ def verify_integer(is_int):
 
     except ValueError:
         print "Sorry, your input is invalid"
-        return(4)
+        return("A")
 
     else:
         print "Sorry, your input is invalid"
         return(4)
-
+''''' \
+''
 user_input = sys.argv[1]
-get_number = verify_integer(user_input)
-while get_number == 4:
-    user_input = input("Please input a valid non negative integer: ")
-    get_number = verify_integer(user_input)
+# get_number = verify_integer(user_input)
 
+# while get_number == "A"\
+
+
+user_input = input("Please input a valid non negative integer: ")
+#get_number = verify_integer(user_input)
+# Tried to create a function to verify the input is a number.
+# Will have to come back some time.
 #get_number = int(sys.argv[1])# Grab your argument
 #if get_number == ""
    # print("This script requires a single non negative digit. Please try again")
@@ -43,14 +48,23 @@ while get_number == 4:
 # if  is_int != int:
 #    print("This script requires a single non negative digit. Please try again")
 #    exit()
-# need to add devinsive coding
-
+# need to add devinsive codin'''
+'''
 def do_fibbonacci(fib_input):
     fib_numbers = [0,1] # create a list
     for i in range(fib_input):
         fib_numbers.append(fib_numbers[i] + fib_numbers[i+1])
         return fib_numbers #print the list!
+'''
 
 
+fib_numbers = [0,1] # create a list
+    # if get_number == 1:
+    # return 1
+    # else get_number == 0:
+        #return 0
 
-print fib_numbers
+for i in range(get_number): #just learned range! It gives me all the numbers!
+    # Grab the index i and the next index (i + 1) and add those beezys!
+    fib_numbers.append(fib_numbers[i] + fib_numbers[i+1])
+print fib_numbers #print the list!
