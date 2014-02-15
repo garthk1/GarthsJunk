@@ -74,7 +74,7 @@
       <file leaf-file-name="fib2.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 2/fib2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.54706925" vertical-offset="304" max-vertical-offset="867">
+            <state line="33" column="17" selection-start="910" selection-end="910" vertical-scroll-proportion="0.45648313" vertical-offset="304" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -539,7 +539,11 @@
       <created>1392495460005</created>
       <updated>1392495460005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Working on fib2. Almost there!">
+      <created>1392499597474</created>
+      <updated>1392499597474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -603,7 +607,8 @@
     <MESSAGE value="Project did not work perfectly. Created new file. Making it better!" />
     <MESSAGE value="Working on new project. Getting closer" />
     <MESSAGE value="Working on fib2. Got error checking mostly down. Need to do something if two or more sets of digits are added as arguments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on fib2. Got error checking mostly down. Need to do something if two or more sets of digits are added as arguments." />
+    <MESSAGE value="Working on fib2. Almost there!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on fib2. Almost there!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/Kens/Assignment 2/fib2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.54706925" vertical-offset="304" max-vertical-offset="867">
+        <state line="33" column="17" selection-start="910" selection-end="910" vertical-scroll-proportion="0.45648313" vertical-offset="304" max-vertical-offset="867">
           <folding />
         </state>
       </provider>

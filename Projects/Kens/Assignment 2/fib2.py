@@ -42,4 +42,4 @@ else:
 for i in range(get_number): #just learned range! It gives me all the numbers!
     # Grab the index i and the next index (i + 1) and add those beezys!
     fib_numbers.append(fib_numbers[i] + fib_numbers[i+1])
-print fib_numbers #print the list!
+print fib_numbers[0:get_number+1] #print the list!
